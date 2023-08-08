@@ -1,0 +1,22 @@
+1. ALGORITMA MENGHITUNG LINGKARAN
+Di ketahui rumus menghitung luas lingkaran adalah 
+(L = π×r×r)
+=========================================================================================================================
+keterangan :
+L = Luas
+π = phi yang memiliki value defaulf 3,14
+π = phi yang memiliki value default 3,14
+r= jari-jari / radius
+=========================================================================================================================
+
+Jika diketahui jari-jari pada sebuah lingkaran adalah 20cm berapakah luas lingkaran? maka proses yang terjadi
+L = 3,14×20cm×20cm
+  = 1256cm
+Jadi luas lingkaran tersebut adalah 1256cm
+==========================================================================================================================
+Di ketahui rumus menghitung diameter lingkaran adalah :
+(d= 2 × r)
+Jika dibketahui jari-jari pada sebuah lingkaran adalah 20cm berapakah diameter lingkaran? maka proses yang terjadi
+d = 2 × 20cm  
+    = 40cm  
+=========================================================================================================================
