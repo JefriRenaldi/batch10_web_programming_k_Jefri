@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan RegExp Object</title>
+  </head>
+  <body>
+    <h1>Memahami RegExp Object</h1>
+    <script>
+      var x = /ab+c/;
+      //dibawah ini untuk mengecek atau melihat isi dari variabel consol yang sudah di buat
+      console.log(x);
+      //untuk melihat isi dari variabel itu sendiri apakah object atau string yaitu dengan
+      //dengan menggunakan type of
+      console.log(typeof x);
+      //yah betul untuk variabel diatas merupakan sebuah object literal karena berada diantara / dan /
+      //=================================================================================
+      //adapun dengan cara seperti berikut dengan cara membuat object construktor dengan new ReGexp()
+
+      var y = new RegExp("ab+c");
+
+      //lakukan pemanggilan console yang sama yaitu dengan cara seperti di atas
+      console.log(y); //untuk menampilkan console dari variabelnya
+      console.log(typeof y); //untuk melihat type dari konsole tersebut
+      //================================================================================
+      //ya betul disini terlihat perbedaan untuk yang di pertama yaitu cara langsung atau disebut literal
+      //dengan mengisi value berada di antara / dan /
+      //========================================================================================
+      //sedangkan untuk yang kedua dia menggunakan cara construktor dengan menggunakan new regExp dan menyisipkan string di dalam kutif
+      // dan ketika di panggil hasilnya akan sama
+    </script>
+  </body>
+</html>
